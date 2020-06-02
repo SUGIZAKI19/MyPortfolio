@@ -15,10 +15,10 @@
         </div>
         <div class="header_menu">
             <div class="header_menu_inner">
-                <a href="https://twitter.com/SUGIZAKI19">
+                <a href="https://twitter.com/SUGIZAKI19" target="_blank">
                     <i class="fa-2x my-4 mx-4"><v-fa :icon="['fab', 'twitter']" /></i>
                 </a>
-                <a href="https://sugizaki.work/" >
+                <a href="https://sugizaki.work/" target="_blank">
                     <i class="fa-2x my-4 mx-4"><v-fa icon="coffee"/></i>
                 </a>
             </div>

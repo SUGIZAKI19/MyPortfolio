@@ -149,7 +149,6 @@ button a{
     background: #8f1313;
 }
 
-
 /*成功，エラーメッセージ*/
 .thanks-message{
 	display:none;

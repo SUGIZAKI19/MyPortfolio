@@ -2,6 +2,8 @@
 <div class="container">
     <h1 class="myName py-2 mt-5 mb-5">MY WORKS</h1>
 
+    <router-view></router-view>
+
     <div>
       <b-tabs content-class="mt-5" align="left">
         <b-tab title="CODE" active>
@@ -38,7 +40,11 @@
                         東大式ＡＬＤＨ２表現型スクリーニングテストを基に作りました．<br>
                       </b-card-text>
                     </b-card-body>
-                    <b-button href="https://alcohol-test.netlify.app/" variant="warning" class="mx-3 my-4 my-md-0" style="float:right;">
+                    <b-button href="https://alcohol-test.netlify.app/"
+                      variant="warning"
+                      class="mx-3 my-4 my-md-0"
+                      style="float:right;"
+                       target="_blank">
                     Details <v-fa icon="arrow-circle-right"/></b-button>
                   </b-col>
                 </b-row>
@@ -57,8 +63,11 @@
                         ブログではプログラミングや節約のことを主に発信しています！
                       </b-card-text>
                     </b-card-body>
-                    <b-button href="https://sugizaki.work/" variant="warning" class="mx-3 my-4 my-md-0" style="float:right;">
-                    Details <v-fa icon="arrow-circle-right"/></b-button>
+                    <b-button href="https://sugizaki.work/"
+                      variant="warning"
+                      class="mx-3 my-4 my-md-0"
+                      style="float:right;"
+                      target="_blank">Details <v-fa icon="arrow-circle-right"/></b-button>
                   </b-col>
                 </b-row>
               </b-card>
@@ -93,11 +102,11 @@
 </div>
 </template>
 
+
 <style scoped>
 .container{
   min-height:600px;
 }
-
 
 /*名前(h1)見出し*/
 .myName {
@@ -123,7 +132,6 @@
     background-color:rgb(29, 27, 27);
     border-radius: 2px;
   }
-
 
 
 .title_m {
@@ -168,33 +176,5 @@
     margin-bottom: 5px;
     color: #999;
 }
-
-/*slide_botton*/
-#movetop {
-    display: none;
-    position: fixed;
-    right: 10px;
-    bottom: 20px;
-    z-index: 50;
-}
-
-#movetop a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50px;
-    height: 50px;
-    font-size: 2.0rem;
-    color: #fff;
-    text-decoration: none;
-    line-height: 1.5;
-    text-align: center;
-    border-radius: 50%;
-    background: rgb(29,27,27);
-    box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.1);
-}
-
-
-
 
 </style>

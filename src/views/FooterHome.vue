@@ -1,7 +1,7 @@
 <template>
 <footer class>
     <div class="footer_wrapper px-4 py-3 row">
-        <div class="col-6 col-md-4" >
+        <div class="col-md-6" >
             <h3 class="border-bottom  border-light p-2">
               <v-fa icon="list"/> Menu
             </h3>
@@ -45,23 +45,28 @@
               </li>
             </ul>
         </div>
-        <div class="col-6 col-md-4" >
-            <h3 class="border-bottom  border-light p-2">
-              <v-fa icon="envelope"/> Contact
-            </h3>
-            <p>sugizakikun@gmail.com</p>
-        </div>
 
-        <div class="col-6 col-md-4 mb-3" >
+        <div class="col-md-6 mb-3" >
             <h3 class="border-bottom  border-light p-2">
               <v-fa icon="external-link-square-alt"/> Link
             </h3>
-            <p>sugizakikun@gmail.com</p>
+            <ul class="menu_list px-2">
+              <li class="my-3">
+                <i class="ml-3 mr-2"><v-fa :icon="['fab', 'twitter']" /></i>Twitter:
+                <a href="https://twitter.com/SUGIZAKI19" target="_blank">
+                  @SUGIZAKI19
+                </a>
+              </li>
+              <li lass="my-3">
+              <i class="ml-3 mr-2"><v-fa icon="coffee"/></i>Blog:
+                <a href="https://sugizaki.work/" target="_blank">
+                    Sugi-log
+                </a>
+              </li>
+            </ul>
         </div>
-
     </div>
 </footer>
-
 </template>
 
 <style scoped>
@@ -70,6 +75,7 @@
 }
 .link--active {
   font-size: 20px;
+  font-weight:bold;
 }
 
 footer{
