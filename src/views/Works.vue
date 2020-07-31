@@ -12,12 +12,12 @@
                 <b-card no-body class="over flow-hidden">
                   <b-row no-gutters>
                     <b-col md="5">
-                      <b-card-img src="@/assets/no1.jpg" alt="Image" class="rounded-0"></b-card-img>
+                      <b-card-img src="@/assets/mock_up.png" alt="Image" class="rounded-0"></b-card-img>
                     </b-col>
                     <b-col md="7">
                       <b-card-body title="ポートフォリオサイト" >
                         <b-card-text>
-                          就活の時のポートフォリオをVue.jsで改造しました！快適インターネット！
+                          ポートフォリオサイトをBootStrap, Vue.CLIを用いて作成しました！（レスポンシブ対応可）
                         </b-card-text>
                       </b-card-body>
                       <b-button href="/" variant="warning" class="mx-3 my-4 my-md-0" style="float:right;">
@@ -28,16 +28,16 @@
                 </b-card>
               </li>
 
-            <li class ="mt-3" style="list-style:none;">
+            <li class ="mt-5" style="list-style:none;">
               <b-card no-body class="over flow-hidden">
                 <b-row no-gutters>
                   <b-col md="5">
-                    <b-card-img src="@/assets/no2.jpg" alt="Image" class="rounded-0"></b-card-img>
+                    <b-card-img src="@/assets/scouter_logo.png" alt="Image" class="rounded-0"></b-card-img>
                   </b-col>
                   <b-col md="7">
-                    <b-card-body title="アルコール感受性診断アプリ" >
+                    <b-card-body title="Liver Scourter" >
                       <b-card-text>
-                        東大式ＡＬＤＨ２表現型スクリーニングテストを基に作りました．<br>
+                        たった13項目の質問に答えるだけでお酒の強さを調べることができます！<br/>質問項目は東大式ALDH表現型スクリーニングテスト(TAST)を参考にしています！<br>
                       </b-card-text>
                     </b-card-body>
                     <b-button href="https://alcohol-test.netlify.app/"
@@ -51,16 +51,16 @@
               </b-card>
             </li>
 
-            <li class ="mt-3" style="list-style:none;">
+            <li class ="mt-5 mb-5" style="list-style:none;">
               <b-card no-body class="over flow-hidden">
                 <b-row no-gutters>
                   <b-col md="5">
-                    <b-card-img src="@/assets/no3.jpg" alt="Image" class="rounded-0"></b-card-img>
+                    <b-card-img src="@/assets/eye-catch.png" alt="Image" class="rounded-0"></b-card-img>
                   </b-col>
                   <b-col md="7">
                     <b-card-body title="ブログ" >
                       <b-card-text>
-                        ブログではプログラミングや節約のことを主に発信しています！
+                        ブログではエンジニア就活のこと，キャリアの積み上げ方について色々解説しています！
                       </b-card-text>
                     </b-card-body>
                     <b-button href="https://sugizaki.work/"

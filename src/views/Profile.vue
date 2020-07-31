@@ -73,9 +73,9 @@
                   <v-fa :icon="['fab', 'vuejs']" size ="3x"/>
                 </dt>
                 <dd class="col-10" style="padding:0px">
-                  <b-progress :max="max" height="3rem" variant="warning" id="vue">
-                    <b-progress-bar :value="50">
-                    <strong>50 / 100</strong>
+                  <b-progress :max="max" height="3rem" variant="success" id="vue">
+                    <b-progress-bar :value="75">
+                    <strong>Vue.js, VueCLI 75 / 100</strong>
                     </b-progress-bar>
                   </b-progress>
                   <b-popover target="vue" triggers="hover" placement="righttop">
@@ -90,9 +90,9 @@
                   <v-fa :icon="['fab', 'git']" size ="3x"/>
                 </dt>
                 <dd class="col-10" style="padding:0px">
-                  <b-progress :max="max" height="3rem" variant="warning" id="git">
-                    <b-progress-bar :value="45">
-                      <strong>45 / 100</strong>
+                  <b-progress :max="max" height="3rem" variant="success" id="git">
+                    <b-progress-bar :value="70">
+                      <strong>GigHub 70 / 100</strong>
                       </b-progress-bar>
                     </b-progress>
                     <b-popover target="git" triggers="hover" placement="left">
@@ -102,6 +102,22 @@
                 </dd>
             </dl>
 
+            <dl class="list_set p-4 row">
+                <dt class="list_label col-2" style="margin-right:0px;">
+                  <v-fa :icon="['fab', 'laravel']" size ="3x"/>
+                </dt>
+                <dd class="col-10" style="padding:0px">
+                  <b-progress :max="max" height="3rem" variant="warning" id="laravel">
+                    <b-progress-bar :value="50">
+                      <strong>Laravel 50 / 100</strong>
+                      </b-progress-bar>
+                    </b-progress>
+                    <b-popover target="laravel" triggers="hover" placement="left">
+                      <template v-slot:title>Laravel</template>
+                        テーブルの定義，APIの作成が可能
+                    </b-popover>
+                </dd>
+            </dl>
 
             <dl class="list_set p-4 row">
                 <dt class="list_label col-2" style="margin-right:0px;">
@@ -115,24 +131,7 @@
                     </b-progress>
                     <b-popover target="php" triggers="hover" placement="left">
                       <template v-slot:title>PHP</template>
-                        全力勉強中！伸びしろの塊！
-                    </b-popover>
-                </dd>
-            </dl>
-
-            <dl class="list_set p-4 row">
-                <dt class="list_label col-2" style="margin-right:0px;">
-                  <v-fa :icon="['fab', 'laravel']" size ="3x"/>
-                </dt>
-                <dd class="col-10" style="padding:0px">
-                  <b-progress :max="max" height="3rem" variant="danger" id="laravel">
-                    <b-progress-bar :value="25">
-                      <strong>25 / 100</strong>
-                      </b-progress-bar>
-                    </b-progress>
-                    <b-popover target="laravel" triggers="hover" placement="left">
-                      <template v-slot:title>Laravel</template>
-                        全力勉強中！伸びしろの塊！
+                       簡単なAPIを作成可能
                     </b-popover>
                 </dd>
             </dl>
